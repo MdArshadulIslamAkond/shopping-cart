@@ -7,7 +7,7 @@ function displayProducts() {
     .map((p) => {
       return `
         <div class="bg-white p-4 shadow rounded">
-          <img src="${p.image}" class="w-full h-40 object-cover mb-3 rounded" />
+          <img src="${p.image}" class="w-full h-80 object-cover mb-3 rounded" />
           <h3 class="font-bold text-lg">${p.name}</h3>
           <p class="text-sm text-gray-600">${p.description}</p>
           <p class="font-bold my-2">$${p.price}</p>
